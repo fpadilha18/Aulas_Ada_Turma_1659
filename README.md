@@ -3,9 +3,9 @@ Aulas ADA modulo 2
 
 *** teste de insercao de dados (nuvem - pc)
 
-* para localizar, no cmd:
+* para alterar diretorio, no cmd ou bash:
 
-cd Aulas_Ada_Turma_1659
+cd "/c/Users/Fábio Padilha/Aulas_Ada_Turma_1659"
 
 C:\Users\Fábio Padilha\Aulas_Ada_Turma_1659
 	C:\Users\Fábio Padilha\Aulas_Ada_Turma_1659>git status
@@ -32,3 +32,36 @@ C:\Users\Fábio Padilha\Aulas_Ada_Turma_1659>git pull origin main
 
 
 *** novo teste de insercao de dados (pc - nuvem)
+
+salva o arquivo .txt, se não ele não identifica mudanças para enviar
+
+git commit -m "Minha alteração no README via pc, passando pra nuvem"
+	On branch main
+	Your branch is up to date with 'origin/main'.
+
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+	no changes added to commit (use "git add" and/or "git commit -a")
+
+git add README.md
+	git commit -m "Atualizando o README pelo computador"
+	[main b78f005] Atualizando o README pelo computador
+	 1 file changed, 31 insertions(+), 1 deletion(-)
+
+Fábio Padilha@DeathStar MINGW64 ~/Aulas_Ada_Turma_1659 (main)
+$ git push origin main
+	Enumerating objects: 5, done.
+	Counting objects: 100% (5/5), done.
+	Delta compression using up to 4 threads
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (3/3), 773 bytes | 773.00 KiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+	To https://github.com/fpadilha18/Aulas_Ada_Turma_1659.git
+	   4dd80ff..b78f005  main -> main
+
+
+
+
